@@ -1,0 +1,209 @@
+repo_name: dreamfactorysoftware/Gaufrette
+report_id: 1c563a18c6ac0b9865e9fabfab57bdc9
+repo_type: Public
+timestamp: '2023-12-06T22:36:37+00:00'
+requested_by: docteurklein
+provider: github
+branch: master
+detected_tools_count: 17
+tools:
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: PHPUnit
+  description: Testing framework for PHP
+  website_url: https://phpunit.de/
+  version: '3.7'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/1616/1_WsEnddd5Y4EgEHsT054kUQ.jpeg
+  detection_source_url: github.com/dreamfactorysoftware/Gaufrette/blob/master/composer.json
+  detection_source: composer.json
+  last_updated_by: Joseph Bielawski
+  last_updated_on: 2011-11-02 08:23:54.000000000 Z
+- name: PhpSpec
+  description: A  toolset for behavior driven development
+  website_url: http://www.phpspec.net/en/latest/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/3502/6b9dfb07681dee602dbdf75d9393f07c_400x400.png
+  detection_source: composer.json
+  last_updated_by: Joseph Bielawski
+  last_updated_on: 2011-11-02 08:23:54.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source: ".travis.yml"
+  last_updated_by: Joseph Bielawski
+  last_updated_on: 2011-11-14 18:20:34.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata
+- name: amazonwebservices/aws-sdk-for-php
+  description: AWS SDK for PHP
+  package_url: https://packagist.org/amazonwebservices/aws-sdk-for-php
+  version: 1.5.17
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: github.com/dreamfactorysoftware/Gaufrette/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Michael Dowling
+  last_updated_on: 2013-07-26 21:31:32.000000000 Z
+- name: aws/aws-sdk-php
+  description: AWS SDK for PHP - Use Amazon Web Services in your PHP project
+  package_url: https://packagist.org/aws/aws-sdk-php
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: composer.json
+  last_updated_by: Michael Dowling
+  last_updated_on: 2013-07-26 21:31:32.000000000 Z
+- name: doctrine/dbal
+  description: Powerful PHP database abstraction layer
+  package_url: https://packagist.org/doctrine/dbal
+  version: '2.3'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: github.com/dreamfactorysoftware/Gaufrette/blob/master/composer.json
+  detection_source: composer.json
+  last_updated_by: l3l0
+  last_updated_on: 2012-10-09 10:18:05.000000000 Z
+- name: dropbox-php/dropbox-php
+  description: Dropbox PHP library
+  package_url: https://packagist.org/dropbox-php/dropbox-php
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: composer.json
+  last_updated_by: Michael Dowling
+  last_updated_on: 2013-07-26 21:31:32.000000000 Z
+- name: herzult/php-ssh
+  description: Provides an object-oriented wrapper for the php ssh2 extension
+  package_url: https://packagist.org/herzult/php-ssh
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: composer.json
+  last_updated_by: Leszek Prabucki
+  last_updated_on: 2014-06-03 08:00:52.000000000 Z
+- name: microsoft/windowsazure
+  description: This project provides a set of PHP client libraries that make it easy
+    to access Windows Azure tables
+  package_url: https://packagist.org/microsoft/windowsazure
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: composer.json
+  last_updated_by: Adam Woods
+  last_updated_on: 2013-11-22 00:00:46.000000000 Z
+- name: mikey179/vfsStream
+  description: Virtual file system to mock the real file system in unit tests
+  package_url: https://packagist.org/mikey179/vfsStream
+  version: 1.2.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: github.com/dreamfactorysoftware/Gaufrette/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Douglas Greenshields
+  last_updated_on: 2013-11-17 17:00:58.000000000 Z
+- name: phpseclib/phpseclib
+  description: PHP Secure Communications Library - Pure-PHP implementations of RSA
+  package_url: https://packagist.org/phpseclib/phpseclib
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: composer.json
+  last_updated_by: Leszek Prabucki
+  last_updated_on: 2014-06-03 08:00:52.000000000 Z
+- name: phpspec/phpspec
+  description: Specification-oriented BDD framework for PHP 7.1+
+  package_url: https://packagist.org/phpspec/phpspec
+  version: '2.0'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: github.com/dreamfactorysoftware/Gaufrette/blob/master/composer.json
+  detection_source: composer.json
+  last_updated_by: Leszek Prabucki
+  last_updated_on: 2014-06-03 08:00:52.000000000 Z
+- name: phpunit/phpunit
+  description: The PHP Unit Testing framework
+  package_url: https://packagist.org/phpunit/phpunit
+  version: '3.7'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: github.com/dreamfactorysoftware/Gaufrette/blob/master/composer.json
+  detection_source: composer.json
+  last_updated_by: Leszek Prabucki
+  last_updated_on: 2014-06-03 08:00:52.000000000 Z
+- name: rackspace/php-opencloud
+  description: PHP SDK for Rackspace/OpenStack APIs
+  package_url: https://packagist.org/rackspace/php-opencloud
+  version: 1.9.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: github.com/dreamfactorysoftware/Gaufrette/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Leszek Prabucki
+  last_updated_on: 2014-06-03 08:00:52.000000000 Z
